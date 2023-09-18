@@ -11,7 +11,7 @@ $detail = [
     "tagline" => "Hotel & Resort",
     "page_title" => "Admin Panel - Grand Atma Hotel & Resort",
     "logo" => "./assets/images/crown.png" 
-]
+];
 
 ?>
 <!DOCTYPE html>
@@ -89,7 +89,7 @@ $detail = [
     </main>
 
     <!-- Bootstrap 5.3 JS -->
-    <script scr="./assets/css/bootstrap.min.js"></script>
+    <script scr="./assets/js/bootstrap.min.js"></script>
 </body>
 
 

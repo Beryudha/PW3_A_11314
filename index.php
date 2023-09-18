@@ -12,7 +12,7 @@ $detail = [
 $gambar = [
     "./assets/images/hotel1.jpg",
     "./assets/images/hotel2.jpg",
-    "./assets/images/hote13.jpg"
+    "./assets/images/hotel3.jpg"
 ];
 
 ?>
@@ -99,8 +99,9 @@ $gambar = [
     </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel"data-bs-slide="prev"> 
             <span class="carousel-control-prev-icon" aria-hidden="true"></span> 
-            <span class="visually-hidden">Previous</span> </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel "data-bs-slide="next">
+            <span class="visually-hidden">Previous</span> 
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#myCarousel"data-bs-slide="next">
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
         </button>
@@ -161,7 +162,7 @@ $gambar = [
     </main>
 
     <!-- Bootstrap 5.3 JS -->
-    <script src="./assets/css/bootstrap.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 
     <!-- Custom JS untuk Navbar -->
     <script src="./assets/js/home-nav.js"></script>

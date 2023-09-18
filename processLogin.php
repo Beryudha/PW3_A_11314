@@ -35,7 +35,7 @@ if(isset($_POST["mencoba_login"])) {
 
     $folderTujuan = "./bukti_ngantor/";
     $namaFile = $buktiNgantor["name"];
-    $alamatFile = $folderTujuan . $alamatFile;
+    $alamatFile = $folderTujuan . $namaFile;
 
     // Upload file ke folder tujuan
     if (!move_uploaded_file($tmpfile, $alamatFile)) {

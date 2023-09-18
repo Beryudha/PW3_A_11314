@@ -88,18 +88,18 @@ $detail = [
 
             <!-- https://getbootstrap.com/docs/5.3/forms/floating-labels/ -->
             <div class="form-floating mb-4">
-                <input type="text" class="form-control"id="inputUsername "placeholder="Username "name="username" /> 
+                <input type="text" class="form-control" id="inputUsername" placeholder="Username" name="username" /> 
                 <label for="inputUsername">Username</label>
             </div>
             <div class="form-floating mb-4">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password"name="password"/>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password" name="password"/>
                 <label for="inputPassword">Password</label>
             </div>
             
             <!-- https://getbootstrap.com/docs/5.3/forms/form-control/#file-input -->
             <div class="mb-4">
                 <label for="inputFile" class="form-label d-block text-center">Bukti sedang ngantor: </label>
-                <input class="form-control"id="inputFile"type="file" accept=" .jpg, .jpeg, .png"name="bukti_ngantor"/> 
+                <input class="form-control"id="inputFile"type="file" accept=".jpg,.jpeg,.png"name="bukti_ngantor"/> 
             </div>
 
             <div>
@@ -112,7 +112,7 @@ $detail = [
     </main>
 
     <!-- Bootstrap 5.3 JS -->
-    <script src="./assets/css/bootstrap.min.js"></script>
+    <script src="./assets/js/bootstrap.min.js"></script>
 </body>
 
 </html>
