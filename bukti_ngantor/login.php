@@ -11,7 +11,7 @@ if (isset($_SESSION["user"])) {
 $detail = [
     "name" => "Grand Atma",
     "tagline" => "Hotel & Resort",
-    "page_title" => "Log in Grand Atma Hotel & Resort", -
+    "page_title" => "Log in - Grand Atma Hotel & Resort",
     "logo" => "./assets/images/crown.png"
 ];
 
@@ -21,7 +21,7 @@ $detail = [
 
 <head>
     <meta charset="utf-8" />
-    <title><?php echo $detail[ "page_title"]; ?></title>
+    <title><?php echo $detail["page_title"]; ?></title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     
     <!-- Icon tab -->

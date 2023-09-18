@@ -20,7 +20,8 @@ $gambar = [
 
 <!DOCTYPE html>
 <html>
-    <head>
+
+<head>
     <meta charset="utf-8" />
     <title><?php echo $detail["page_title"]; ?></title> 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -33,13 +34,12 @@ $gambar = [
    
     <!-- Poppins dari Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" 
-    crossorigin> <link href="./assets/css/poppins.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="./assets/css/poppins.min.css" rel="stylesheet">
     
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
-
 
 <body>
     <header class="fixed-top" id="navbar">
@@ -51,6 +51,7 @@ $gambar = [
                     <p class="small mb-0"><?php echo $detail["tagline"]; ?></p>
                 </div>
             </a>
+
             <ul class="nav nav-pills">
                 <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Home</a></li> 
                 <li class="nav-item"><a href="./login.php" class="nav-link text-bg-success">Admin Login</a></li>
